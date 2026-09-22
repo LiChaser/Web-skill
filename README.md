@@ -3,10 +3,10 @@
   <h1>Web CTF Playbook</h1>
   <p><strong>把零散 payload 变成从题目入口到利用链的实战导航系统。</strong></p>
   <p>
-    <img alt="License" src="https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue.svg">
-    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-    <img alt="Made for CTF" src="https://img.shields.io/badge/Made%20for-CTF-red.svg">
-    <img alt="Node.js >=18" src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue">
+    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
+    <img alt="Made for CTF" src="https://img.shields.io/badge/Made%20for-CTF-red">
+    <img alt="Node.js >=18" src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&amp;logoColor=white">
   </p>
   <p>
     <a href="README.md">简体中文</a> ·
