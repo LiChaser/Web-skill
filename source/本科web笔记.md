@@ -6,7 +6,7 @@ tags:
   - CTF
   - Web
   - 笔记
-source: C:/Users/14844/Desktop/Homework/CTF/web笔记2.md
+source: original-note.md
 ---
 
 # Web 安全笔记（CTF）
