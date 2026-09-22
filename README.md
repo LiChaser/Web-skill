@@ -37,8 +37,8 @@
 ![Web CTF Playbook terminal demo](assets/demo.svg)
 
 ~~~bash
-git clone <your-repo-url>
-cd web-ctf-playbook
+git clone git@github.com:LiChaser/Web-skill.git
+cd Web-skill
 
 # 按关键词搜索 payload、函数名、协议名或绕过技巧
 node scripts/search-notes.mjs gopher
@@ -211,7 +211,7 @@ CI 会检查：
 
 - 修改内容：编辑 <code>source/本科web笔记.md</code>，再运行 <code>npm run rebuild</code>。
 - 提交前：运行 <code>npm run check</code>。
-- 配置仓库地址：运行 <code>node scripts/configure-repo.mjs &lt;github-owner&gt;</code>。
+- 配置仓库地址：运行 <code>node scripts/configure-repo.mjs LiChaser</code>。
 - 准备发布：阅读 [docs/publishing.md](docs/publishing.md) 和 [docs/launch-kit.md](docs/launch-kit.md)。
 - 贡献内容：阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 

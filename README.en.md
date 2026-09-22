@@ -43,8 +43,8 @@ Web CTF notes often become a long list of payloads. The hard part is knowing whi
 Requires Node.js 18 or newer.
 
 ~~~bash
-git clone <your-repo-url>
-cd web-ctf-playbook
+git clone git@github.com:LiChaser/Web-skill.git
+cd Web-skill
 node scripts/search-notes.mjs gopher
 node scripts/search-notes.mjs deserialization --context 2
 node scripts/search-notes.mjs --list

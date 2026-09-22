@@ -13,7 +13,7 @@ description: 面向授权 Web CTF 练习的场景式知识库与 payload 路由�
     <a href="docs/recipes.md">场景手册</a> ·
     <a href="docs/knowledge-map.md">知识地图</a> ·
     <a href="docs/cheatsheet.md">5 分钟速查</a> ·
-    <a href="https://github.com/<owner>/web-ctf-playbook">GitHub</a>
+    <a href="https://github.com/LiChaser/Web-skill">GitHub</a>
   </p>
 </div>
 
@@ -35,8 +35,8 @@ Web CTF 笔记常见的问题不是“没有内容”，而是内容太多、入
 ## 30 秒开始
 
 ~~~bash
-git clone <your-repo-url>
-cd web-ctf-playbook
+git clone git@github.com:LiChaser/Web-skill.git
+cd Web-skill
 node scripts/search-notes.mjs gopher
 node scripts/search-notes.mjs 反序列化 --context 2
 node scripts/search-notes.mjs --stats
