@@ -1,0 +1,33 @@
+name: New technique or correction
+description: Add a Web CTF technique, payload note, or correction.
+title: "[Technique]: "
+labels: ["content"]
+body:
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      placeholder: "RCE / SQLi / SSTI / SSRF / PHP / other"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and version
+      description: Language, framework, version, and any relevant constraints.
+    validations:
+      required: true
+  - type: textarea
+    id: technique
+    attributes:
+      label: Technique details
+      description: Explain the entry point, filter, bypass, minimal verification, and expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Authorization and safety
+      description: Confirm this is for CTF, labs, or authorized testing only.
+    validations:
+      required: true

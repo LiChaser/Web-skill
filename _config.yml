@@ -1,0 +1,7 @@
+title: Web CTF Playbook
+description: Scenario-first Web CTF playbook for authorized practice.
+theme: jekyll-theme-cayman
+markdown: kramdown
+show_downloads: false
+lang: zh-CN
+logo: assets/logo.svg

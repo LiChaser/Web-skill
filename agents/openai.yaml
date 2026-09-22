@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web CTF Playbook"
+  short_description: "Searchable Web CTF exploitation playbook"
+  default_prompt: "Use this Web CTF playbook to analyze the authorized challenge, choose the relevant vulnerability class, and produce a concrete exploitation checklist."

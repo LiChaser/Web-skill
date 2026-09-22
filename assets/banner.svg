@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Web CTF Playbook banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1120" cy="82" r="96" fill="#22d3ee" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="1060" cy="280" r="120" fill="#f472b6" fill-opacity="0.09" filter="url(#glow)"/>
+  <g transform="translate(64 64)">
+    <rect x="0" y="0" width="76" height="76" rx="18" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <path d="M20 24 L34 38 L20 52" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 52 H58" stroke="#a78bfa" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="176" y="112" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="1.5">WEB CTF PLAYBOOK</text>
+  <text x="178" y="164" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="25">A practical, searchable Web exploitation knowledge base</text>
+  <rect x="176" y="204" width="560" height="4" rx="2" fill="url(#accent)"/>
+  <text x="176" y="258" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="22">RCE · SQLi · SSRF · XXE · SSTI · JWT · Upload · Deserialization</text>
+  <text x="176" y="304" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="19">For CTF, labs, competitions, and authorized security testing only.</text>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "name": "web-ctf-playbook",
+  "version": "0.2.0",
+  "description": "Scenario-first Web CTF playbook for authorized practice: payload routing, bypasses, decision trees, and searchable references.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "search": "node scripts/search-notes.mjs",
+    "stats": "node scripts/search-notes.mjs --stats",
+    "rebuild": "node scripts/rebuild-references.mjs",
+    "validate": "node scripts/validate-project.mjs",
+    "check": "node scripts/rebuild-references.mjs --check && node scripts/validate-project.mjs && node scripts/check-links.mjs && node scripts/search-notes.mjs --list",
+    "configure": "node scripts/configure-repo.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ctf",
+    "web-security",
+    "application-security",
+    "penetration-testing",
+    "payloads",
+    "playbook",
+    "sqli",
+    "ssrf",
+    "xxe",
+    "ssti",
+    "jwt",
+    "deserialization"
+  ],
+  "license": "MIT"
+}
