@@ -6,7 +6,6 @@
     <img alt="License" src="https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-blue">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
     <img alt="Made for CTF" src="https://img.shields.io/badge/Made%20for-CTF-red">
-    <img alt="Node.js >=18" src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&amp;logoColor=white">
   </p>
   <p>
     <a href="README.md">简体中文</a> ·
